@@ -1,0 +1,149 @@
+.header-section
+{
+    display: grid;
+    grid-template-columns: 630px 450px 1fr;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 66px;
+    background-color: white;
+}
+.top-right
+{
+position: relative;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+}
+.linkedin-logo
+{
+    height: 30px;
+}
+.search-icon{
+    height: 15px;
+}
+.serch-icon-box
+{
+    position: absolute;
+    top: 27px;
+    left: 230px;
+
+}
+.search-bar
+{
+    width: 244px;
+    height: 26px;
+    border-radius: 6px;
+    margin-left: 34px;
+    background: #eef3f8;
+    border: 1px solid #f9f3f3;
+}
+.search-bar::placeholder
+{
+    padding-left: 40px;
+}
+.search-bar:focus
+{
+    padding-left: 60px;
+}
+.top-middle
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+.icon
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.icon-img{
+    height: 29px;
+    opacity: .5;
+}
+.icon-img:hover{
+    opacity: 1;
+}
+.top-left
+{
+display: grid;
+grid-template-columns: 81px 1fr;
+column-gap: 10px;
+}
+
+.top-row
+{
+    display:grid;
+    grid-template-rows: 13px 1fr;
+}
+.for-business-text
+{
+    padding: 0px;
+    font-size: 14px;
+    font-weight: 100;
+}
+.user-box
+{
+  display: grid;
+  grid-template-rows: 24px 1fr;
+  border-right: 1px solid rgb(183, 183, 183);
+}
+.user-image-header
+{
+    display: flex;
+    justify-content: center;
+}
+.user-box img
+{
+    margin:4px;
+    height: 30px;
+}
+.user-box p
+{
+    display: inline;
+   font-size: 12px;
+   margin-left: 13px;
+}
+.user-bottom
+{
+    display: grid;
+    grid-template-columns: 30px 1fr;
+}
+
+.drop-down
+{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  
+}
+.user-text
+{
+  display: flex;
+  align-items: end;
+  font-size: 20px;
+  font-weight: 700;
+}
+.drop-down img{
+   margin-top: 6px ;
+   height: 16px;
+}
+.top-row
+{
+    display: grid;
+    grid-template-rows: 18px 14px;
+
+}
+.top-col
+{
+ margin-top: 12px;
+}
+
+.top-row a
+{
+  color: #8c7f56;
+}

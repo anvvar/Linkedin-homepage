@@ -1,0 +1,110 @@
+.left-section
+{
+ padding-top: 10px;
+}
+.profile-card
+{
+ border-radius: 14px;
+ background-color: white;
+ margin-bottom: 10px;
+ position: relative;
+}
+
+.image-user
+{
+    position: absolute;
+    top: 23px;
+    left: 87px;
+    height: 60px;
+
+}
+.image-back-ground{
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+ }
+.user-info
+{
+    border-bottom: 1px solid rgb(190, 182, 182);
+}
+.user-info-text
+{
+    padding-top: 14px;
+}
+.user-info p,h4
+{
+ text-align: center;
+}
+.user-info h4{
+    margin: 14px 0 0 0;
+}
+.user-info p{
+    margin: 10px 0 4px 0;
+}
+
+.user-stats-row
+{
+ display: grid;
+ grid-template-columns:183px 1fr;
+ border-bottom: 1px solid rgb(190, 182, 182);
+}
+.text-stats
+{
+    padding-left: 10px;
+    color: rgb(85, 85, 85);
+    font-size: 14px;
+    font-weight: 500;
+    margin: 6px 0;
+}
+.count
+{
+color: #1111f4;
+font-size: 14px;
+margin: 6px 0;
+}
+.text-grow
+{
+ padding-left: 10px;
+ font-size: 15px;
+ font-weight: 600;
+ margin:  0 0 2px;
+ color: rgb(16, 15, 15);
+}
+.card-bottom
+{
+
+    display: grid;
+    align-items: center;
+    margin-top: 12px;
+    background-color: white;
+    border-radius: 14px;
+}
+.link-texts
+{
+    padding-left: 25px;
+    font-size: 16px;
+    font-weight: 600;
+    color: blue;
+    margin: 12px 0px;
+}
+.discover
+{
+    border-top: 1px solid rgb(190, 182, 182);;
+}
+.discover p
+{
+    padding-left: 25px;
+}
+.my-items
+{
+   display: flex ;
+   align-items: center;
+   padding-left: 10px;
+   justify-content: space-between;
+}
+.my-items p
+{
+    padding-bottom: 4px;
+    font-weight: 700;
+    margin-right: 119px;
+    color: #3d3a3a; 
+}
