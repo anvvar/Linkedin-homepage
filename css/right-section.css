@@ -1,0 +1,118 @@
+.linkedin-news
+{
+    border-radius: 14px;
+    background-color: white;
+    padding: 8px;
+   margin-top: 10px;
+   margin-bottom: 8px;
+}
+.linkedin-news li{
+    list-style-type: circle;
+    font-size: 20px;
+}
+
+.text-icon
+{
+    display: flex;
+    padding: 0 14px;
+    align-items: center;
+    justify-content: space-between;
+}   
+.news-text
+{
+    display: flex;
+    align-items: flex-start;
+    font-size: 16px;
+    padding: 0px;
+    font-weight: 500;
+
+}
+.time-text{
+    display: flex;
+    align-items: flex-start;
+    font-size: 14px;
+    font-weight:500;
+    margin: 5px;
+    color:  #6d5b5b;
+}
+.linkedin-news ul{
+    margin: 0px;
+}
+.linkedin-news li
+{
+    font-size: 16px;
+}
+
+.info-icon
+{
+    height: 20px;
+
+}
+.show-more{
+    display: flex;
+   align-items: center;
+}
+
+.show-more p{
+    margin-top: 7px;
+    margin-bottom:7px;
+    font-size: 16px;
+    font-weight: 500;
+    color: #7b7575;
+}
+.show-more img{
+    height: 30px;
+    margin-top: 5px;
+    opacity: .5;
+}
+.footer
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 12px;
+    padding-top: 8px;
+}
+.footer p{
+    margin: 0;
+    font-size: 12px;
+}
+.add p{
+    font-size: 14px;
+    margin: 5px ;
+}
+.add-row
+{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 65px;
+
+}
+.add-col
+{
+
+    height: 70px;
+    width: 70px;
+    background-color: aquamarine;
+    border-radius:35px;
+}
+.add img
+{
+    height:17px;
+}
+.btn-try
+{
+    display: flex;
+    justify-content: center;
+}
+.btn-try button
+{
+    border-radius: 30px;
+    border: 1px solid navy;
+    padding: 10px;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 600;
+    color: #3d3df2;
+
+}

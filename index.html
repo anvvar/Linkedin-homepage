@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="header.css">
-    <link rel="stylesheet" href="left.css">
-    <link rel="stylesheet" href="middle.css">
-    <link rel="stylesheet" href="right-section.css">
+    <title>LinkedIn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/left.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/right-section.css">
 </head>
 
 <body>
@@ -22,7 +25,8 @@
         </div>
         <div class="top-middle">
             <div class="icon"><img class="icon-img" src="icons/house-chimney-solid.svg" alt=""></div>
-            <div class="icon"> <img class="icon-img" src="icons/group.png" alt=""></div>
+            <div class="icon"><a href="network.html"><img class="icon-img" src="icons/group.png" alt=""></a> 
+            </div>
             <div class="icon"> <img class="icon-img" src="icons/briefcase.png" alt=""></div>
             <div class="icon"><img class="icon-img" src="icons/icons8-chat-bubble-48.png" alt=""></div>
             <div class="icon"><img class="icon-img" src="icons/bell.png" alt=""></div>
@@ -43,13 +47,14 @@
         <div class="top-left">
             <div class="top-row">
                 <div class="top-col"><img class="icon-img" src="icons/icons8-grid-96.png" alt=""></div>
-                <div class="top-col">
+                <div class="top-col2">
                     <p class="for-business-text">for business</p>
+                    <img src="icons/arrow_drop_down_FILL0_wght400_GRAD0_opsz48.svg" alt="">
                 </div>
             </div>
-            <div class="top-row">
-                <div class="top-col"><a href="">Get hired faster.</a></div>
-                <div class="top-col"><a href="">Try Premium free.</a></div>
+            <div class="premium-link-row">
+                <div class="premium-link"><a href="">Get hired faster.</a></div>
+                <div class="premium-link"><a href="">Try Premium free.</a></div>
             </div>
         </div>
     </header>
@@ -72,11 +77,15 @@
                         <p class="count"> 300</p>
                         <p class="text-grow">Grow you network</p>
                     </div>
+                    <div class="user-card-row-3">
+                        <p class="text-acess">Acess exclusive tools & insights</p>
 
-                    <p style="padding-left: 10px; color: rgb(73, 72, 72);">Acess exclusive tools & insights</p>
-                    <a style="padding-left: 10px; color: rgb(3, 3, 3); text-align: center;" href="">Get hired faster.Try
-                        premium free</a>
-                    <hr>
+                        <div class="premium-link">
+                            <span class="premium-logo" ></span>
+                            <a href="">Get hired faster.Try premium <br>free</a>
+                        </div>
+                    </div>
+                   
                     <div class="my-items">
                         <img style="height: 20px;" src="icons/icons8-save-30.png" alt="">
                         <p>My items</p>
@@ -95,7 +104,6 @@
                     <p class="link-texts">Events</p>
                     <p class="link-texts">Followed Hashtags</p>
                 </div>
-                <hr>
                 <div class="discover">
                     <p>Discover more</p>
                 </div>
@@ -107,7 +115,7 @@
             <div class="container">
                 <div class="row1">
                     <div class="col1">
-                        <button></button>
+                       <img src="images/user_3237472.png" alt="">
                     </div>
                     <div class="col2">
                         <button>
@@ -156,28 +164,48 @@
         <section class="right-section">
             <div class="linkedin-news">
                 <div class="text-icon">
-                    <p>LinkedIn News
+                    <p class="news-text">LinkedIn News
                     <p>
                         <img class="info-icon" src="icons/icons8-info-24.png" alt="">
                 </div>
 
                 <ul>
                     <li>Hr focus on 'sandwich generation'</li>
-                    <p>7h ago</p>
+                    <p class="time-text">7h ago</p>
                     <li>Edtech in offline expansion mode</li>
-                    <p>7h ago</p>
+                    <p class="time-text">7h ago</p>
                     <li>Construction needs job-ready workers</li>
-                    <p>7h ago</p>
+                    <p class="time-text" >7h ago</p>
                     <li>Lenovo to hire 1,000</li>
-                    <p>7h ago</p>
+                    <p class="time-text">7h ago</p>
                     <li>Proptech promise attracts funding</li>
-                    <p>7h ago</p>
+                    <p class="time-text">7h ago</p>
                     <div class="show-more">
                         <p>Show more</p>
                         <img src="icons/down-arrow.svg" alt="">
                     </div>
 
                 </ul>
+            </div>
+            <div class="linkedin-news add">
+                    <p style="text-align: end; font-size: 14px; font-weight: 400;">Ad  <img src="icons/dot.svg" alt=""></p>
+                  
+                   <p>user, make connections that matter most in <br> your job search</p>
+                    <div class="add-row">
+                        <div class="add-col">
+                        </div>
+                        <div class="add-col">
+                        </div>
+                    </div>
+                   <p>see who is viewed your profile in last <br> 90 days</p>
+                  <div class="btn-try">
+                    <button>Try it for free</button>
+                  </div>
+                
+                        
+            </div>
+
+             
             </div>
             <div class="footer">
                 <p>About</p>
