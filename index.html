@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LinkedIn</title>
+    <!-- fontawosome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- font-google -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- stylsheets -->
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/left.css">
     <link rel="stylesheet" href="css/middle.css">
     <link rel="stylesheet" href="css/right-section.css">
+    <!-- javascript -->
+   
 </head>
 
 <body>
@@ -25,7 +31,7 @@
         </div>
         <div class="top-middle">
             <div class="icon"><img class="icon-img" src="icons/house-chimney-solid.svg" alt=""></div>
-            <div class="icon"><a href="network.html"><img class="icon-img" src="icons/group.png" alt=""></a> 
+            <div class="icon"><a href="network.html"><img class="icon-img" src="icons/group.png" alt=""></a>
             </div>
             <div class="icon"> <img class="icon-img" src="icons/briefcase.png" alt=""></div>
             <div class="icon"><img class="icon-img" src="icons/icons8-chat-bubble-48.png" alt=""></div>
@@ -81,17 +87,17 @@
                         <p class="text-acess">Acess exclusive tools & insights</p>
 
                         <div class="premium-link">
-                            <span class="premium-logo" ></span>
+                            <span class="premium-logo"></span>
                             <a href="">Get hired faster.Try premium <br>free</a>
                         </div>
                     </div>
-                   
+
                     <div class="my-items">
                         <img style="height: 20px;" src="icons/icons8-save-30.png" alt="">
                         <p>My items</p>
                     </div>
-                    
-                  
+
+
                 </div>
             </div>
 
@@ -115,7 +121,7 @@
             <div class="container">
                 <div class="row1">
                     <div class="col1">
-                       <img src="images/user_3237472.png" alt="">
+                        <img src="images/user_3237472.png" alt="">
                     </div>
                     <div class="col2">
                         <button>
@@ -144,26 +150,40 @@
                     <div>
                         <img class="middle-pic" src="images/profile pic.png">
                     </div>
-                    <div>
-                        <p class="name">Benjamin
-                        <p>
-                        <p class="name-about">academic counselor</p>
+                    <div class="author-card">
+                        <div class="author">
+                            <p class="name">Benjamin</p>
+                            <p class="name-about">academic counselor</p>
+                        </div>
+                    <div class="time-icon">
                         <p class="name-about">6h &#183; </p>
+                        <img src="icons/globe.svg" alt="">
                     </div>
+                </div>
                 </div>
                 <div>
                     <p>Come and discover our degrees, scholarships and what it’s like to live and study in Canberra,
                         Australia’s capital city</p>
                 </div>
                 <img class="post-image" src="images/posterpic.jpg">
+           
+            
+            <div class="icons-actions">
+                <button><img  class="like-icon"src="icons/thumb_up_black_24dp (2).svg" alt=""></button>
+                <button><img  class="chat-icon" src="icons/chat.png" alt=""></button>
+                <button><img class="repost-icon" src="icons/screen_rotation_alt_black_24dp.svg" alt=""></button>
+                <button><img  class="send-icon" src="icons/send_black_24dp.svg" alt=""></button>
             </div>
+
             </div>
+        </div>
         </section>
 
         <!-- right section contents -->
         <section class="right-section">
             <div class="linkedin-news">
                 <div class="text-icon">
+                   
                     <p class="news-text">LinkedIn News
                     <p>
                         <img class="info-icon" src="icons/icons8-info-24.png" alt="">
@@ -175,37 +195,49 @@
                     <li>Edtech in offline expansion mode</li>
                     <p class="time-text">7h ago</p>
                     <li>Construction needs job-ready workers</li>
-                    <p class="time-text" >7h ago</p>
+                    <p class="time-text">7h ago</p>
                     <li>Lenovo to hire 1,000</li>
                     <p class="time-text">7h ago</p>
                     <li>Proptech promise attracts funding</li>
                     <p class="time-text">7h ago</p>
-                    <div class="show-more">
-                        <p>Show more</p>
-                        <img src="icons/down-arrow.svg" alt="">
-                    </div>
+                </ul>
+                <button id="showMoreBtn">Showmore<i class="fas fa-angle-down"></i>
+                </button>
 
+                <ul id="list" class="hidden">
+                    <li>Hr focus on 'sandwich generation'</li>
+                    <p class="time-text">7h ago</p>
+                    <li>Edtech in offline expansion mode</li>
+                    <p class="time-text">7h ago</p>
+                    <li>Construction needs job-ready workers</li>
+                    <p class="time-text">7h ago</p>
+                    <li>Lenovo to hire 1,000</li>
+                    <p class="time-text">7h ago</p>
+                    <li>Proptech promise attracts funding</li>
+                    <p class="time-text">7h ago</p>
                 </ul>
             </div>
             <div class="linkedin-news add">
-                    <p style="text-align: end; font-size: 14px; font-weight: 400;">Ad  <img src="icons/dot.svg" alt=""></p>
-                  
-                   <p>user, make connections that matter most in <br> your job search</p>
-                    <div class="add-row">
-                        <div class="add-col">
-                        </div>
-                        <div class="add-col">
-                        </div>
+                <p style="text-align: end; font-size: 14px; font-weight: 400;">Ad <img class="dot-icon" src="icons/dot.svg" alt=""></p>
+
+                <p>user, make connections that matter most in <br> your job search</p>
+                <div class="add-row">
+                    <div class="add-col">
+                        <img src="images/user_3237472.png" alt="">
                     </div>
-                   <p>see who is viewed your profile in last <br> 90 days</p>
-                  <div class="btn-try">
+                    <div class="add-col">
+                        <img src="images/linkedin-premium.jpg" alt="">
+                    </div>
+                </div>
+                <p>see who is viewed your profile in last <br> 90 days</p>
+                <div class="btn-try">
                     <button>Try it for free</button>
-                  </div>
-                
-                        
+                </div>
+
+
             </div>
 
-             
+
             </div>
             <div class="footer">
                 <p>About</p>
@@ -222,6 +254,8 @@
         </section>
     </main>
 
+
+    <script src="script.js"></script>
 </body>
 
 </html>
